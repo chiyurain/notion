@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>网易云歌单循环</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <style>
+    body { margin: 20px; background: #fff; }
+  </style>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+  <meting-js
+    server="netease"
+    type="playlist"
+    id="18178471229"
+    loop="all"
+    order="list"
+    autoplay="false"
+    theme="#e60026"
+    list-folded="false"
+    list-max-height="300px"
+    meting-api="https://api.injahow.cn/meting/">
+  </meting-js>
+</body>
+</html>
